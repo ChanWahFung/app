@@ -1,0 +1,216 @@
+body{
+	-webkit-user-select: none;
+}
+.pad0{
+	padding: 0;
+}
+.mar{
+	margin: 0 6px;
+}
+@media (max-width: 320px) {
+	.mar{
+		margin: 0 5px;
+	}
+}
+/*-------*/
+.top{
+	padding: 5px;
+	background: linear-gradient(to right,#ef8ded, #ee5b6f);
+}
+.top-img1,
+.top-img2{
+	width: 35px;
+	height: 35px;
+}
+.round{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+.top-search{
+	position: relative;
+	width: 100%;
+	height: 25px;
+	margin: 5px 0;
+	border: none;
+	outline: none;
+	color: white;
+	padding-left: 25px;
+	border-radius: 30px;
+	background: rgba(255,255,255,.5);
+}
+input::-webkit-input-placeholder{
+	color: white;
+}
+.top-search+img{
+	width:14px; 
+	height:14px;
+	position: absolute;
+	top: 50%;
+	left: 8px;
+	transform: translateY(-50%);
+}
+
+/*===内容===*/
+.cont{
+	width: 100%;
+	margin: 45px 0;
+}
+.banner{
+    width:100%;
+    height:185px;
+    position: relative;
+    margin: 0 auto;
+}
+.banner>img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s;
+    opacity: 0;
+} 
+img:first-child{
+    opacity: 1;
+} 
+.banner .imgActive{
+	opacity: 1;
+}
+.Nav{
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+.navicon{
+	padding: 0;
+	width: 60px;
+	height: 50px;
+}
+.brand{
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+}
+.brand img{
+	height: 110px;
+}
+.brand>div.col-xs-4{
+	border: 1px solid #efefef;
+}
+.banner2{
+	margin: 20px 0;
+	height: 120px;
+	background: url(../img/index/cont/cont_banner.png) no-repeat;
+	background-size: 100%;
+}
+/*==楼层公用样式==*/
+.price-l{
+	font-size: 17px;
+	color: orangered;
+}
+.price-r{
+	font-size: 14px;
+}
+.price-l i{
+	font-size: 12px;
+	text-decoration: line-through;
+	display: block;
+	color: #666;
+}
+/*==1楼==*/
+.floor1{
+	overflow: hidden;
+	text-align: center;
+}
+.floor1 .title{
+	width: 100%;
+	height: 90px;
+	margin: 10px 0;
+	background: url(../img/index/cont/cont_title1.png) no-repeat;
+	background-size: 100%;
+}
+/*==2楼==*/
+.floor2{
+	overflow: hidden;
+	text-align: center;
+}
+.floor2 .title{
+	width: 100%;
+	height: 90px;
+	margin: 10px 0;
+	background: url(../img/index/cont/cont_title2.png) no-repeat;
+	background-size: 100%;
+}
+/*==3楼==*/
+.floor3{
+	overflow: hidden;
+	text-align: center;
+}
+.floor3 .title{
+	width: 100%;
+	height: 90px;
+	margin: 10px 0;
+	background: url(../img/index/cont/cont_title3.png) no-repeat;
+	background-size: 100%;
+}
+/*==4楼==*/
+.floor4{
+	overflow: hidden;
+	text-align: center;
+}
+.floor4 .title{
+	width: 100%;
+	height: 90px;
+	margin: 10px 0;
+	background: url(../img/index/cont/cont_title4.png) no-repeat;
+	background-size: 100%;
+}
+/*==5楼==*/
+.floor5{
+	overflow: hidden;
+	text-align: center;
+}
+.floor5 .title{
+	width: 100%;
+	height: 90px;
+	margin: 10px 0;
+	background: url(../img/index/cont/cont_title5.png) no-repeat;
+	background-size: 100%;
+}
+/*==6楼==*/
+.floor6{
+	overflow: hidden;
+	text-align: center;
+}
+.floor6 .title{
+	width: 100%;
+	height: 90px;
+	margin: 10px 0;
+	background: url(../img/index/cont/cont_title6.png) no-repeat;
+	background-size: 100%;
+}
+/*===底部==*/
+.bottom{
+	width: 100%;
+	background: white;
+	overflow: hidden;
+	border-top: 2px solid #EFEFEF;
+	text-align: center;
+	padding-top:5px ;
+}
+.bottom>div>img{
+	padding: 0;
+	width: 25px;
+	height: 25px;
+}
+.bottom>div>span{
+	font-size: 12px;
+	display: block;
+}
+.bottom>div:nth-of-type(1)>span{
+	font-weight: bold;
+}

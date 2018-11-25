@@ -1,0 +1,120 @@
+body{
+	-webkit-user-select: none;
+}
+.pad0{
+	padding: 0;
+}
+.mar{
+	margin: 0 6px;
+}
+@media (max-width: 320px) {
+	.mar{
+		margin: 0 5px;
+	}
+}
+p{
+	margin: 0;
+}
+/*====*/
+/*---顶部----*/
+.top{
+	padding: 5px;
+	background: linear-gradient(to right,#ef8ded, #ee5b6f);
+}
+.top-img1,
+.top-img2{
+	width: 35px;
+	height: 35px;
+}
+.round{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+.top-search{
+	position: relative;
+	width: 100%;
+	height: 25px;
+	margin: 5px 0;
+	border: none;
+	outline: none;
+	color: white;
+	padding-left: 25px;
+	border-radius: 30px;
+	background: rgba(255,255,255,.5);
+}
+input::-webkit-input-placeholder{
+	color: white;
+}
+.top-search+img{
+	width:14px; 
+	height:14px;
+	position: absolute;
+	top: 50%;
+	left: 8px;
+	transform: translateY(-50%);
+}
+/*==内容==*/
+.cont{
+	margin: 45px 0;
+}
+.card{
+	margin: 20px 0;
+	padding-bottom: 10px;
+	background: #f2efea;
+}
+.card h3{
+	font-size: 18px;
+	font-weight: 600;
+	padding:0 8px;
+}
+.card p{
+	color: #666666;
+	padding:0 8px;
+}
+.banner{
+	width: 100%;
+	height: 105px;
+}
+.banner1{
+	background: url(../img/find/banner1.jpg) no-repeat;
+	background-size: cover;
+}
+.banner2{
+	background: url(../img/find/banner2.jpg) no-repeat;
+	background-size: cover;
+}
+.banner3{
+	background: url(../img/find/banner3.jpg) no-repeat;
+	background-size: cover;
+}
+.banner4{
+	background: url(../img/find/banner4.jpg) no-repeat;
+	background-size: cover;
+}
+.banner5{
+	background: url(../img/find/banner5.png) no-repeat;
+	background-size: cover;
+}
+/*===底部==*/
+.bottom{
+	width: 100%;
+	background: white;
+	overflow: hidden;
+	border-top: 2px solid #EFEFEF;
+	text-align: center;
+	padding-top:5px ;
+}
+.bottom>div>img{
+	padding: 0;
+	width: 25px;
+	height: 25px;
+}
+.bottom>div>span{
+	font-size: 12px;
+	display: block;
+}
+.bottom>div:nth-of-type(3)>span{
+	font-weight: bold;
+}
